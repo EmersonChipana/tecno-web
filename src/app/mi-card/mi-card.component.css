@@ -1,0 +1,26 @@
+/* a card for contact*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  color: #001b92;
+}
+
+/* img fluid */
+img {
+  width: 100%;
+  height: 200px;
+}
+
+/* hover for card, card move up whit transition*/
+.container:hover .card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+}
+
+
+
+
+

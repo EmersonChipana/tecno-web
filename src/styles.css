@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
+  
+body {
+      background: linear-gradient(-45deg, #3f34df, #3c5ef7, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+      animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
